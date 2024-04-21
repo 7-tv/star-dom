@@ -49,7 +49,7 @@ setInterval(seconds1, 1);
 seconds.style.transform = `rotate(${6 * new Date().getSeconds()}deg`;  
 }
 function checkMuzyka() {
-  if (new Date().getSeconds() === 59) {
+  if (new Date().getSeconds() === 0) {
      document.getElementById('muzyka').play();
   }
 }
